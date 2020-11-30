@@ -1,0 +1,60 @@
+﻿div.add-item-bar {
+    width: 393px;
+    height: 40px;
+    border: 1px solid #babfc7;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input.item-name {
+    border: 1px solid #babfc7;
+    border-radius: 5px;
+    height: 28px;
+    width: 110px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+input.item-name:focus {
+    outline: none;
+}
+
+input.item-price {
+    border: 1px solid #babfc7;
+    border-radius: 5px;
+    height: 28px;
+    width: 80px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+input.item-price:focus {
+    outline: none;
+}
+
+select.item-categories {
+    border: 1px solid #babfc7;
+    border-radius: 5px;
+    height: 28px;
+    width: 140px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    cursor: pointer;
+}
+
+select.item-categories:focus {
+    outline: none;
+}
+
+svg {
+    cursor: pointer;
+}
